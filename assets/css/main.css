@@ -109,7 +109,7 @@ section {
 
 .breadcrumbs:before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: white;
     position: absolute;
     inset: 0;
 }
@@ -133,7 +133,7 @@ section {
 }
 
 .breadcrumbs ol a {
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
     transition: 0.3s;
 }
 
@@ -249,7 +249,7 @@ section {
 .header .logo h1 {
     font-size: 24px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     margin-bottom: 0;
     font-family: var(--font-primary);
 }
@@ -292,7 +292,7 @@ section {
         font-family: var(--font-primary);
         font-size: 14px;
         font-weight: 500;
-        color: rgba(255, 255, 255, 0.6);
+        color: black;
         text-transform: uppercase;
         white-space: nowrap;
         transition: 0.3s;
@@ -330,7 +330,7 @@ section {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-        color: #fff;
+        color: darkblue;
     }
 
     .navbar .dropdown ul {
@@ -443,7 +443,7 @@ section {
         font-family: var(--font-primary);
         font-size: 15px;
         font-weight: 500;
-        color: rgba(255, 255, 255, 0.7);
+        color: black;
         white-space: nowrap;
         text-transform: uppercase;
         transition: 0.3s;
@@ -460,7 +460,7 @@ section {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-        color: #fff;
+        color: darkblue;
     }
 
     .navbar .dropdown ul,
@@ -1125,7 +1125,7 @@ section {
 
 .alt-services .icon-box:hover i {
     background-color: var(--color-primary);
-    color: #fff;
+    color: #000;
 }
 
 .alt-services .icon-box h4 {
@@ -2650,3 +2650,5 @@ section {
 .footer .footer-legal .credits a {
     color: var(--color-primary);
 }
+
+
