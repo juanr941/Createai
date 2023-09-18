@@ -1,16 +1,8 @@
-/**
-* Template Name: UpConstruction
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-  /**
-   * Preloader
-   */
+  
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -18,9 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /**
-   * Mobile nav toggle
-   */
+ 
 
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
@@ -56,9 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   });
 
-  /**
-   * Toggle mobile nav dropdowns
-   */
+ 
   const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
   navDropdowns.forEach(el => {
@@ -91,16 +79,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }));
   }
 
-  /**
-   * Initiate glightbox
-   */
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
-  /**
-   * Porfolio isotope and filter
-   */
+  
   let portfolionIsotope = document.querySelector('.portfolio-isotope');
 
   if (portfolionIsotope) {
@@ -190,9 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /**
-   * Initiate pURE cOUNTER
-   */
+ 
   new PureCounter();
 
   /**
