@@ -53,7 +53,7 @@ section {
 }
 
 .section-bg {
-    background-color: #0059dd;
+    background-color: white;
 }
 
 .section-header {
@@ -695,7 +695,7 @@ section {
 --------------------------------------------------------------*/
 .services .service-item {
     padding: 40px;
-    background: #fff;
+    background: #8c8c8c;;
     height: 100%;
 }
 
